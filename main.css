@@ -4,17 +4,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000000;
+    color: #faca9e;
     font-family:"Verdana";
     }
 
 #backgroundBody {
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;   
     background-position: center center;
     background: url(background.jpg);
     background-size: cover;
-    background-color:#464646;
+    background-color:#000000;
 }
 
 .fa {
