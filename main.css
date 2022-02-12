@@ -30,8 +30,8 @@
     
     table
     {
-        width: 300px; 
-        height: 300px;
+        width: 650px; 
+        height: 250px;
         text-align: center;
         margin:50 auto 0 auto;
     }
@@ -61,8 +61,7 @@
     }
 }
 
-@media screen and (max-width: 1335px){
-    @media screen and (min-width: 1336px){
+@media screen and (min-width: 1336px){
         #backgroundBody {
             background-repeat: no-repeat;
             background-attachment: fixed;   
@@ -87,15 +86,15 @@
             text-align: center;
             border-radius: 50px; 
             background-color: #e4e4e4; 
-            width: 300px; 
+            width: 275px; 
             height: 100px;
             margin:10 auto 0 auto;
         }
         
         table
         {
-            width: 450px; 
-            height: 250px;
+            width: 300px; 
+            height: 400px;
             text-align: center;
             margin:50 auto 0 auto;
         }
@@ -123,5 +122,4 @@
         .fa:hover {
             opacity: 0.7;
         }
-    }
 }
