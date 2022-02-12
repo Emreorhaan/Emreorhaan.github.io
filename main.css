@@ -63,13 +63,13 @@ th, td {
 @media (max-width: 1050px) {
     #info
     {
-        width: 375px; 
+        width: 345px; 
         height: 100px;
     }
 
 table
 {
-    width: 375px; 
+    width: 345px; 
     height: 350px;
 }
 }
