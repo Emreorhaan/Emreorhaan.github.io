@@ -61,7 +61,7 @@
     }
 }
 
-@media screen and (max-width: 1336px){
+@media screen(min-width: 500px) and (max-width: 1335px){
         #backgroundBody {
             background-repeat: no-repeat;
             background-attachment: fixed;   
