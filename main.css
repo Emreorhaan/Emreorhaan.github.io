@@ -1,4 +1,4 @@
-@media screen and (min-width: 1336px){
+@media screen and (min-width: 1000px){
     #backgroundBody {
         background-repeat: no-repeat;
         background-attachment: fixed;   
@@ -61,7 +61,7 @@
     }
 }
 
-@media screen and (max-width: 1336px){
+@media screen and (max-width: 999px) and (max-width: 500px){
         #backgroundBody {
             background-repeat: no-repeat;
             background-attachment: fixed;   
