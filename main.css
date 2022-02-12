@@ -61,6 +61,11 @@ th, td {
 }
 
 @media (max-width: 1050px) {
+    
+    #foto
+    {
+        margin:50 auto 0 auto;
+    }
     #info
     {
         width: 345px; 
@@ -70,7 +75,7 @@ th, td {
     table
     {
         width: 345px; 
-        height: 375px;
-        margin:15 auto 0 auto;
+        height: 400px;
+        margin:5 auto 0 auto;
     }
 }
