@@ -1,125 +1,75 @@
-@media screen and (min-width: 1336px){
-    #backgroundBody {
-        background-repeat: no-repeat;
-        background-attachment: fixed;   
-        background-position: center center;
-        background-size: cover;
-        background-color:#74b1c2;
-    }
-    
-    #foto
-    {
-        border-radius: 100px; 
-        background-color: #ffffff; 
-        width: 125px; 
-        height: 125px;
-        background: url(foto.jpg);
-        background-size: 150px;
-        margin:75 auto 0 auto;
-    }
-    
-    #info
-    {
-        text-align: center;
-        border-radius: 60px; 
-        background-color: #e4e4e4; 
-        width: 500px; 
-        height: 110px;
-        margin:10 auto 0 auto;
-    }
-    
-    table
-    {
-        width: 650px; 
-        height: 250px;
-        text-align: center;
-        margin:50 auto 0 auto;
-    }
-    th, td {
-        border: 6px;
-        border-radius: 35px;
-        border-style: dashed;
-        border-color: #e4e4e4;
-        margin:0 auto 0 auto;
-      }
-    
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 50%;
-    
-        background: #e4e4e4;
-        color: #33313a;
-    }
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
+
+#backgroundBody {
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-position: center center;
+    background-size: cover;
+    background-color:#74b1c2;
 }
 
-@media screen(min-width: 450px) and (max-width: 1335px){
-        #backgroundBody {
-            background-repeat: no-repeat;
-            background-attachment: fixed;   
-            background-position: center center;
-            background-size: cover;
-            background-color:#74b1c2;
-        }
-        
-        #foto
-        {
-            border-radius: 100px; 
-            background-color: #ffffff; 
-            width: 125px; 
-            height: 125px;
-            background: url(foto.jpg);
-            background-size: 150px;
-            margin:75 auto 0 auto;
-        }
-        
-        #info
-        {
-            text-align: center;
-            border-radius: 50px; 
-            background-color: #e4e4e4; 
-            width: 275px; 
-            height: 100px;
-            margin:10 auto 0 auto;
-        }
-        
-        table
-        {
-            width: 300px; 
-            height: 400px;
-            text-align: center;
-            margin:50 auto 0 auto;
-        }
-        th, td {
-            border: 6px;
-            border-radius: 35px;
-            border-style: dashed;
-            border-color: #e4e4e4;
-            margin:0 auto 0 auto;
-          }
-        
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 30px;
-            text-align: center;
-            text-decoration: none;
-            margin: 5px 2px;
-            border-radius: 50%;
-        
-            background: #e4e4e4;
-            color: #33313a;
-        }
-        
-        .fa:hover {
-            opacity: 0.7;
-        }
+#foto
+{
+    border-radius: 100px; 
+    background-color: #ffffff; 
+    width: 125px; 
+    height: 125px;
+    background: url(foto.jpg);
+    background-size: 150px;
+    margin:75 auto 0 auto;
+}
+
+#info
+{
+    text-align: center;
+    border-radius: 60px; 
+    background-color: #e4e4e4; 
+    width: 500px; 
+    height: 110px;
+    margin:10 auto 0 auto;
+}
+
+table
+{
+    width: 650px; 
+    height: 250px;
+    text-align: center;
+    margin:50 auto 0 auto;
+}
+th, td {
+    border: 6px;
+    border-radius: 35px;
+    border-style: dashed;
+    border-color: #e4e4e4;
+    margin:0 auto 0 auto;
+  }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+    background: #e4e4e4;
+    color: #33313a;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 1050px) {
+    #info
+    {
+        width: 400px; 
+        height: 100px;
+    }
+
+table
+{
+    width: 500px; 
+    height: 350px;
+}
 }
