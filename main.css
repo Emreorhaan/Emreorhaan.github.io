@@ -67,9 +67,10 @@ th, td {
         height: 100px;
     }
 
-table
-{
-    width: 345px; 
-    height: 350px;
-}
+    table
+    {
+        width: 345px; 
+        height: 375px;
+        margin:15 auto 0 auto;
+    }
 }
