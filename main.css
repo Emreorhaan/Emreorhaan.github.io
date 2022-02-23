@@ -26,6 +26,7 @@ body{
     align-items: center;
 }
 #photo_div{
+    filter: drop-shadow(0px 0px 15px #fdfdfd);
     width: 190px;
     height: 190px;
     margin-bottom: 30px;
@@ -103,6 +104,9 @@ body{
     height: 130px;
     border-radius: 50%;
     background-color: #ffffff;
+}
+.circle_link:hover{
+    filter: drop-shadow(0px 0px 15px #fdfdfd);
 }
 .circle_link > a{
     width: 130px;
