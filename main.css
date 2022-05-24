@@ -117,6 +117,7 @@ body{
 }
 #empty_div{
     display: none;
+    z-index: -5;
 }
 @media (max-width: 920px) {
     body{
